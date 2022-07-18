@@ -161,6 +161,9 @@ be changed, instead of wait I use poll(2) and pipe(2).
 9. Add more logging
 10. Print that program was stopped just after it was stopped without waiting for other commands in line
 11. Write status of job if it ended in fg but with signal or dump
+12. Codestyle: make all `if` bodies surrounded with curly braces
+13. Add `history` function\
+14. Codestyle: refactor parser
 
 ## Testing
 
